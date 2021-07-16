@@ -1,0 +1,6 @@
+msg = input ('Digite algo: ')
+print ('INFORMAÇÕES SOBRE O QUE FOI DIGITADO: ')
+print ('O tipo primitivo', type(msg))
+print ("Ele é alfabético? ", msg.isalpha())
+print ("Ele é numérico? ", msg.isnumeric())
+print ("Ele é alfanumérico? ", msg.isalnum())
